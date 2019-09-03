@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuật Toán Vòng Lặp</title>
+</head>
+<body>
+    <script>
+    function find() {
+        let arr
+        let x= document.getElementById('textId').value;
+        arr =x.split(',');
+        let max=arr[0];
+        for(let i=0; i<arr.length; i=i+1){
+            if(max<arr[i]){
+                max=arr[i];
+            }
+        }
+        document.write(max);
+    }
+    </script>
+<input type="text" id="textId">
+<button type="button" onclick="find()">Click!</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển Thị</title>
+</head>
+<body>
+    <!--hien thi ket qua ham alert -->
+    <button type="button" onclick="hehe();">Bấm vào</button>
+        <script>
+            function hehe() {
+                alert('Bấm mất 10k')
+            }
+        </script>
+    <br><br><br><br><br><br>
+    <!--hien thi ket qua su dung the HTML -->
+    <div id="hahaDiv"></div>
+        <button type="button" onclick="hihi();">Quẩy lên</button>
+            <script>
+                function hihi() {
+                    document.getElementById('hahaDiv').innerHTML = 'Lên là lên là lên';
+                }
+            </script>
+    <br><br><br><br><br><br>
+    <!--hien thi ket qua ham document.write  -->
+    <button type="button" onclick="haiz();">Nhìn Đi</button>
+    <script>
+        function haiz() {
+            document.write('Sơn đẹp trai hihi');
+        }
+    </script>
+    <br><br><br><br><br><br>
+    <!--hien thi ket qua ham console.log() -->
+    <button type="button" onclick="boom();">Điều bất ngờ</button>
+        <script>
+            function boom() {
+                console.log('Sơn vui tính dễ thương hihi');
+            }
+        </script>
+</body>
+</html>
